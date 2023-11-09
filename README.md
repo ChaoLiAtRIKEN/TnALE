@@ -24,7 +24,7 @@ The last 0 stands for the id of the agent. You can spawn multiple agents with ea
 
 Then start the main script by
 
-     python TNALE_TR.py ‘data.npz’ 2 1 1 2
+     python TNALE_TR.py 'data.npz' 2 1 1 2
      
 The argvs stands for the name of data, the rank-related radius in the initial phase, the rank-related radius in the main phase, the switch that decides whether or not to include the initial phase and the $L_{0}$ in the paper, respectively. Here we provide a demo of learning the low-dimensional TR format representation of a tensor. The running details will be saved in a `.log` file.
 
