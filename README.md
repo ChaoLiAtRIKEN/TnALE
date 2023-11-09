@@ -4,7 +4,7 @@ Solving Tensor Network Structure Search with Fewer Evaluations (ICML, 2023)
 
 Intro
 -------------------------------
-This repository is the implementation of TnALE under the ring constraint ([arXiv](https://proceedings.mlr.press/v202/li23ar/li23ar.pdf)).
+This repository is the implementation of TnALE under the ring constraint ((https://proceedings.mlr.press/v202/li23ar/li23ar.pdf)).
 
 
 
