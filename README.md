@@ -16,18 +16,18 @@ Requirements
  
 Usage
 ---------------------
-First you need to start agents with
+First, you need to start agents with
 
      CUDA_VISIBLE_DEVICES=0 python agent.py 0
      
-The last 0 stands for the id of the agent. You can spawn multiply agents with each one using one gpu by modifying the visible device id. <br/>
+The last 0 stands for the id of the agent. You can spawn multiple agents with each one using one GPU by modifying the visible device id. <br/>
 
 Then start the main script by
 
-    python TNALE_TR.py ‘data.npz’ 2 1 1 2
+     python TNALE_TR.py ‘data.npz’ 2 1 1 2
 
-The argvs stands for the name of data, the rank-related radius in Init Phase, rank-related radius in Main Iteration, Whether or not to use Initialization with objective estimation, Times of Initialization respectively. Here we provide a demo of learning the low-dimensional representation TR format of the tensor. The running details of the algorithm will be saved in a `.log` file.
+The argvs stands for the name of data, the rank-related radius in the initial phase, the rank-related radius in the main phase, the switch that decides to include or not include the initial phase and the $L_{0}$ in the paper, respectively. Here we provide a demo of learning the low-dimensional representation TR format of the tensor. The running details of the algorithm will be saved in a `.log` file.
 
-Acknowledgement
+Acknowledgment
 -------------------------
  * The code is modified based on the [TNGA](https://github.com/minogame/icml2020-TNGA). Thanks for their great efforts.
