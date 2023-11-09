@@ -2,7 +2,7 @@ Alternating Local Enumeration (TnALE):
 Solving Tensor Network Structure Search with Fewer Evaluations (ICML, 2023) [https://proceedings.mlr.press/v202/li23ar/li23ar.pdf]
 ===================================
 
-Intro
+Introduction
 -------------------------------
 This repository is the implementation of TnALE under the ring constraint.
 
