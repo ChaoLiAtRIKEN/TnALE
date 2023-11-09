@@ -23,7 +23,7 @@ except:
 
 current_time = strftime("%Y%m%d_%H%M%S", gmtime())
 
-log_name = 'sim_{}_stepinit{}_stepmain{}_initon{}_inititer{}.log'.format(sys.argv[1], sys.argv[2],sys.argv[3],sys.argv[4],sys.argv[5])
+log_name = 'sim_{}_initRadius{}_mainRadius{}_initOn{}_initIter{}.log'.format(sys.argv[1], sys.argv[2],sys.argv[3],sys.argv[4],sys.argv[5])
 logging.basicConfig(filename=log_name, filemode='a', level=logging.DEBUG,
 										format='%(asctime)s: %(message)s', datefmt='%H:%M:%S')
 console = logging.StreamHandler()
